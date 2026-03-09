@@ -97,12 +97,13 @@ aside {
 }
 
 .overlay {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 20px;
-  background: linear-gradient(#00000029, rgba(0, 0, 0, 0.9));
-  text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(#00000029, rgba(0, 0, 0, 0.9));
+    text-align: center;
 }
 
 .overlay h3 {
