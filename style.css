@@ -27,7 +27,7 @@ padding-bottom:80px;
 position:relative;
 height:500px;
 overflow:hidden;
-border-radius:14px;
+border-radius:10px;
 display:block;
 }
 
@@ -40,15 +40,18 @@ transition:transform 8s linear;
 transform:translateY(-70%);
 }
 
-.overlay{
-position:absolute;
-bottom:0;
-width:100%;
-padding:25px;
-background:linear-gradient(transparent, rgba(0,0,0,0.9));
+.overlay {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    background: linear-gradient(#00000029, rgba(0, 0, 0, 0.9));
+    text-align: center;
 }
 
-.overlay h3{
-margin:0;
-font-size:24px;
+.overlay h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
 }
