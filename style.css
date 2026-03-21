@@ -54,7 +54,7 @@
 
     /* GRID */
     .portfolio { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2px; padding: 50px; }
-    .project { position: relative; height: 220px; overflow: hidden; display: block; background: var(--card-bg); text-decoration: none; cursor: pointer; }
+    .project { position: relative; height: 350px; overflow: hidden; display: block; background: var(--card-bg); text-decoration: none; cursor: pointer; }
     .project::after { content: ''; position: absolute; inset: 0; border: 2px solid transparent; transition: border-color 0.25s; pointer-events: none; z-index: 3; border-radius: 0; }
     .project:hover::after { border-color: var(--accent); }
     .image { width: 100%; overflow: hidden; }
